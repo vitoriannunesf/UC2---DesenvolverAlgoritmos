@@ -1,0 +1,10 @@
+// Operadores Lógicos - Utilizados geralmente para testar
+
+/* - Operador E ( Tudo deve ser verdadeiro ).
+Representamos com: &&
+
+- Operador OU ( Uma condição sendo verdadeira já basta ).
+Representamos com: ||
+
+-Operador NAO ( Inverte o valor ).
+Representamos com: !
