@@ -1,0 +1,16 @@
+/* Define o estilo geral da pagina (body)*/
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* fonte do texto*/
+    background-color: rgba(60, 141, 228, 0.657); /* cor do texto */
+    text-align: center; /* centralizado */ 
+    margin-top: 50px; /* Adiciona espaço de 50px no topo da pagina */
+
+}
+/* Define o estilo da caixa central */
+.caixa{
+    background-color: rgba(54, 134, 175, 0.819);
+    padding: 20px; /* Espaçamento interno da caixa */
+    width: 300px; /* Largura fixa de 300px */
+    margin: auto; /* Centraliza a caixa */
+    border-radius: 10px; /* Arredonda os cantos da caixa */
+}
