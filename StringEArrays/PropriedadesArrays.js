@@ -74,3 +74,9 @@ let letrasSemUmElementos = letras.splice(3,2)
 console.log("Elementos retirados da Array letras com splice(3,2):     ", letrasSemUmElementos)
 
 console.log( "Array letras ficou assim:", letras)
+///////////////////////////////////////////////
+// Propriedades ou Método concat(): junta dois ou mais arrays para formar um novo array
+let frutas2 = ["maçã" , "banana"]
+let legumes = ["cenoura" , "batata"]
+let alimentos = frutas2.concat(legumes)
+console.log(alimentos)
