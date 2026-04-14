@@ -80,3 +80,8 @@ let frutas2 = ["maçã" , "banana"]
 let legumes = ["cenoura" , "batata"]
 let alimentos = frutas2.concat(legumes)
 console.log(alimentos)
+////////////////////////////////////////////
+// Propriedades ou Método sort(): ele organiza os itens em ordem crescente (por padrão, ordem alfabética para strings)
+let frutas3 = ["banana" , "tangerina" , "bergamota" , "laranja"]
+frutas3.sort()
+console.log(frutas3)
