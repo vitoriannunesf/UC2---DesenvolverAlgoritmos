@@ -1,0 +1,4 @@
+let pistas = ["mochila" , "navio" , "janela" , "porta" , "lampada" , "mesa" , "livro" , "sofa"]
+pistas.sort()
+
+console.log(pistas)
