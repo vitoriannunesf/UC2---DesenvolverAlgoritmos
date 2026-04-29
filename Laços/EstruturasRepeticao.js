@@ -68,7 +68,7 @@ for(let i  = 0; i < 5; i++){
 // let i = 0  -> valor inicial
 // i < 5 -> condição ( enquanto for verdadeira, repete )
 // i++ -> incremento ( aumenta 1 a cda volta )
-FECHO COMENTARIO-----------------------------------------------------------------------------------*/
+
 
 //--------------------------------------------------------------
 // FOR (PARA) - Com condicionais
@@ -88,4 +88,47 @@ for(let i = 0; i <= 100; i++){
         console.log("-> " + i + " é multiplo de 5")
     }
         
+}
+
+
+//==================================================================================================
+// Usando o For para percorrer array
+
+let numero = [14, 67,89,15,23]
+
+for(let i = 0; i < 5; i++){
+    let elemento = numero[i]
+    console.log(elemento)
+
+}
+
+
+//===================================================================================================
+// For...of...
+// Definição: o loop for...of percorre arrays e objetos, alocando o valor de cada posição do array em uma variavel, permitindo executar alguma ação para cada valor distinto.
+
+//  Criamos uma array com alguns numeros
+const numeros = [14,67,89,15,23]
+
+// Usamos o for...of para percorrer cada numero da array
+for(let numero of numeros){
+    // aqui, dentro do loop, 'numero' é cada elemento da array, um por vez
+    console.log(numero)
+}
+FECHO COMENTARIO-----------------------------------------------------------------------------------*/
+
+// Exemplo:
+// Exemplo 1: escolhendo aleatoriamente um lanche
+
+// começamos com uma array de lanches
+let lanches = ["pizza", "arepa", "hamburguer","hot-dog","pastel","batata-frita","nuggets","morango","coxinha","sushi","salgadinho","sorvete"]
+
+// vamos percorrer cada lanche e escolher um aleatorio
+for(let lanche of lanches){
+    let chance = Math.random() // numero aleatorio entre 0 e 1
+    if(chance > 0.5){
+        console.log("Vou comer " + lanche + " hoje")
+    }else{
+        console.log("Hoje nao vai dar para comer " + lanche)
+    }
 }
