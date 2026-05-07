@@ -70,3 +70,55 @@ console.log(donoDoPet.pet.nomeDoPet)
 console.log(donoDoPet)
 console.log(donoDoPet.pet.raca)
 console.log(donoDoPet.pet.idade)
+//=======================================================================
+// Acessando arrays dentro de objetos {[]}
+let curso = {
+    nome: "Noturno Frontend",
+    linguagens: ["JS", "CSS", "HTML"]
+}
+console.log(curso.linguagens[0])
+//======================================================================
+// Arrays de objetos [{}]
+let professores = [
+    {nome: "Dal", modulo: 1},
+    {nome: "Dani", modulo: 3},
+    {nome: "Dani pelo amor de Deus (MaATIAS 2026)", modulo: 4}
+]
+console.log(professores[1].nome)
+//===============================================================
+// Percorrendo objetos em arrays
+let alunos = [
+    {nome: "oiGubin", idade: 18},
+    {nome: "Greg", idade: 17},
+    {nome: "Lucas", idade: 17}
+]
+// Percorrendo com for..of
+for(let aluno of alunos){
+    console.log("Nome: ", aluno.nome, " | idade: ", aluno.idade)
+}
+//===================================================================
+// Adicionando propriedades 
+let curso2 = {
+    nome: "Backend",
+    tecnologias: ["node", "Express", "TypeORM"]
+}
+curso2.numeroEstudantes = 67
+curso2.professor = "Daniel"
+curso2.escola = "Senac Unisinos"
+curso2.turno = "noite"
+console.log(curso2)
+//=======================================================================
+// Espalhamneto ou Spread...
+// Consiste em uma sintaxe que permite copiar algumas propreiedades de um objeto e alterar outras
+ let usuario = {
+    nome: "Prof",
+    idade: 26,
+    email: 'prof@senacrs.com.br',
+    cidade: 'São Leopoldo'
+ }
+ let novoUsuario = {
+    ...usuario,
+    nome: 'Maria',
+    idade: 22
+ }
+ console.log(novoUsuario)
